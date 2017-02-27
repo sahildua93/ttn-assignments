@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+  function counter(){
+  arguments.callee.counterInvocation=arguments.callee.counterInvocation || 0;
+  arguments.callee.instanceInvocation=arguments.callee.instanceInvocation || 0;
+
+  if(this instanceof arguments.callee){
+  arguments.callee.instanceInvocation++;
+  console.log('instanceInvocation :' , arguments.callee.instanceInvocation);
+  }
+  else{
+  arguments.callee.counterInvocation++;
+  console.log('counterInvocation :' , arguments.callee.counterInvocation);
+  }
+  }
+
+
+</script>
+</head>
+<body>
+<h3>q1. Create a function which returns number of invocations and number of instances of a function.</h3>
+</body>
+</html>
