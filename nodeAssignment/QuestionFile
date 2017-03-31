@@ -2,6 +2,8 @@ Q1: Get the single line comments in different file.		// run file --> "requireTes
 
 Q2: Read package.json file					// run file --> "requireTest2.js"
 - - - Find the count of dependencies and devdependencies.
-- - -Find the common dependencies btw dependencies and devdependencies.
-- - -Write the above results in another file.
+
+
+Q3: Find the common dependencies btw dependencies and devdependencies.   // run file ---"requireTest3.js"
+- - -Write the above results in another file.            // check the content in "writeCommonDependencies.txt" 
 

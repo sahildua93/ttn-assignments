@@ -29,15 +29,15 @@ exports.countSingleLineComments = function(readfileName,writefileName) {
 
 //var events = require('events');
 //var buff = new Buffer(10);
-var reqire = require('http');
-
-//var len = buff.write("hello");
-
-reqire.createServer(function (request,response) {
-
-    response.end("server started !!!!!");
-
-}).listen(7000);
+// var reqire = require('http');
+//
+// //var len = buff.write("hello");
+//
+// reqire.createServer(function (request,response) {
+//
+//     response.end("server started !!!!!");
+//
+// }).listen(7000);
 
 // var eventEmitter = new events.EventEmitter();
 //
